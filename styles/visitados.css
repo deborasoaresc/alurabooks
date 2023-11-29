@@ -1,0 +1,45 @@
+.visitados{
+    background-color: #002F52;
+    padding: 1em 0 1em 0;   
+    text-align: center;
+
+}
+
+.visitados__titulo{
+    font-weight: 300;   
+    color: var(--branco);
+    margin-bottom: 1em;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 0.5em; */
+    flex-wrap: wrap;
+}
+
+.botoes__visitados{
+    color: var(--branco);
+    background-color: var(--laranja);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center; 
+    padding: 1em;   
+    margin: 0.5em;
+}
+
+@media screen and (min-width:1024px) {
+    .visitados__titulo{
+        font-size: 24px;
+    }
+
+    .botoes__visitados{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .visitados{
+        padding: 3em 25vw;
+    }
+}
